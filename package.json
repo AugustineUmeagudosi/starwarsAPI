@@ -1,0 +1,31 @@
+{
+  "name": "starwarsapi",
+  "version": "1.0.0",
+  "description": "An API about starwars movie characters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustineUmeagudosi/starwarsAPI.git"
+  },
+  "author": "Augustine Umeagudosi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugustineUmeagudosi/starwarsAPI.git/issues"
+  },
+  "homepage": "https://github.com/AugustineUmeagudosi/starwarsAPI.git#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.1.1",
+    "http-status": "^1.5.0",
+    "mysql2": "^2.2.2",
+    "sequelize": "^6.3.5",
+    "winston": "^3.3.3"
+  }
+}
